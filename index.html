@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holly Praisy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">H<span>L</span></a>
+
+
+        <nav class="navbar">
+            <ul class="hidden" id="list-menu">
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>        
+            </ul>
+        </nav>
+
+        <div class="hamburger-menu">
+            <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+            </div>
+
+                
+
+    </header>
+
+    <main>
+        <!-- Home START -->
+        <article class="home" id="home">
+            <div class="homeContent">
+                <h1>Hello, Iam</h1>
+                <h1 class="nama">Holly Praisy </h1>
+                <h1>a <span>Junior Web Developer</span></h1>
+                <p>I am an undergraduate student majoring in Computer Engineering at Sam Ratulangi University. I have a keen interest in web development. </p>
+        
+                <div class="sosialMedia">
+                <a href="https://www.facebook.com/praisy.lapian07" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hollypraisy?igsh=MWs0dnVyczFpZHp0Ng==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/holypraisy" target="_blank"><i class="fa-brands fa-github"></i></a> 
+                </div>
+
+                <a href="https://drive.google.com/file/d/1xgzJobRvaHzhD4PMPFbhM83YruJEsVql/view?usp=sharing" target="_blank" class="button">Download CV</a>
+            </div>
+            
+            <aside class="fotoDiri">
+                <img src="assets/profil-removebg.png" alt="">
+            </aside>
+        </article>
+
+
+        <!-- Home END -->
+        <article class="about" id="about">
+            <div class="aboutContainer">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/fotoabout.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="heading"> - About <span>Me</span> -</h2>
+                        <p>I am an active undergraduate student majoring in Computer Engineering at Sam Ratulangi University. I have a keen interest in web development. I am proficient in using HTML, CSS, and JavaScript to develop websites. I am disciplined and capable of working well in teams. I have been actively involved in organizational activities and have experience in projects.</p>
+
+                        <div class="aboutList">
+                            <div class="aboutSkill" >
+                                <h3>Skill</h3>
+                                <ul>
+                                    <li><span>Web Development</span><br>HTML, CSS, Javascript, PHP, MySql</li>
+                                    <li><span>UI/UX Design</span><br>Figma, Canva</li>
+                                </ul>
+                            </div>
+
+                            <div class="aboutEducation" >
+                                <h3>Education</h3>
+                                <ul>
+                                    <li><span>2021 - Now</span><br>S1 Teknik Informatika Universitas Sam Ratulangi Manado</li>
+                                    <li><span>2018-2021</span><br>SMA NEGERI 1 KAWANGKOAN </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+        <!-- About START -->
+
+
+        <!-- Portfolio START -->
+        <article class="portfolio" id="portfolio">
+                <h2 class="heading">- Latest <span>Projects</span> -</h2>
+
+                <div class="portfolioContainer">
+                    <div class="portfolioBox">
+                        <img src="assets/project1.png" alt="">
+                        <div class="portfolioLayer">
+                            <h4>Web Design</h4>
+                            <p>UI/UX design for Brita Desa Website</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolioBox">
+                        <img src="assets/project2.png" alt="">
+                        <div class="portfolioLayer">
+                            <h4>Frontend Web Development</h4>
+                            <p>Build Menantea Toko website</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolioBox">
+                        <img src="assets/project3.png" alt="">
+                        <div class="portfolioLayer">
+                            <h4>Full Stack Web Development</h4>
+                            <p> Build an employee website for XYZ supermarket.</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+        </article>
+        <!-- Portfolio END -->
+
+
+        <!-- Contact START -->
+        <article class="contact" id="contact">
+            <h2 class="heading ">- Contact <span>Me</span> -</h2>
+
+            <form action="#">
+                <div class="inputBox">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email Address">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="button">
+            </form>
+        </article>
+
+        <!-- Contact END -->
+    </main>
+
+    <footer class="footer">
+        <div class="footerText">
+            <p>Copyright &copy; 2024 by Holly Praisy Lapian | All Rights Reserved </p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
